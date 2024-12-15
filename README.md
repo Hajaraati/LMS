@@ -87,5 +87,25 @@ Library Statistics: View total count of books and members
 #### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/library-management-system.git
-   cd library-management-system
+   git clone https://github.com/Hajaraati/LMS.git
+   cd library-system
+   
+2. Install dependencies:
+
+   composer install
+   npm install && npm run dev
+
+3. Configure the environment file:
+
+   cp .env.example .env
+   php artisan key:generate
+
+4. Run migrations:
+
+   php artisan migrate --seed
+
+5. Serve the application:
+
+   php artisan serve
+
+6. Access the application at http://localhost:8000 or http://127.0.0.1:8000
