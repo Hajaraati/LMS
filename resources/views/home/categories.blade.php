@@ -6,7 +6,7 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <div class="line-dec"></div>
+                  <div class="line-dec" style="padding-botom: 10px;"></div>
                   <h2>Browse Through Book <em>Categories</em> Here.</h2>
                 </div>
               </div>
