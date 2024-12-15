@@ -92,29 +92,37 @@ Library Statistics: View total count of books and members
    
 2. Install dependencies:
 
-   composer install
-   npm install && npm run dev
+   `composer install`
+   `npm install && npm run dev`
 
 3. Install Jetstream (for multiple authentication): If you haven't already installed Jetstream, run the following command:
 
-   php artisan jetstream:install livewire
+   `php artisan jetstream:install livewire`
 
 4. Install additional dependencies:
 
-   npm install
-   npm run dev
+   `npm install`
+   `npm run dev`
 
 5. Configure the environment file:
 
-   cp .env.example .env
-   php artisan key:generate
+   `cp .env.example .env`
+   `php artisan key:generate`
 
 6. Run migrations:
 
-   php artisan migrate --seed
+   `php artisan migrate --seed`
 
 7. Serve the application:
 
-   php artisan serve
+   `php artisan serve`
 
 8. Access the application at http://localhost:8000 or http://127.0.0.1:8000
+
+9. ## Additional Information
+
+For logging in to the application, use the following credentials:
+
+  Admin
+- **Email**: admin@gmail.com
+- **Password**: 12345678
