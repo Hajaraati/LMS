@@ -64,3 +64,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# About This Project
+
+## Library Management System
+
+A web-based application designed for efficient library management. This system allows administrators to manage books and library members, including adding, editing, and deleting records. Regular users can view the available books but do not have administrative privileges.
+
+### Features
+Book Management: Add, View, Edit, Delete books
+Member Management: Add, View, Edit, Delete members
+Library Statistics: View total count of books and members
+
+### Getting Started
+
+#### Prerequisites
+- PHP >= 8.1
+- Composer
+- Node.js
+- MySQL
+
+#### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/library-management-system.git
+   cd library-management-system
