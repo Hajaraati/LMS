@@ -95,17 +95,26 @@ Library Statistics: View total count of books and members
    composer install
    npm install && npm run dev
 
-3. Configure the environment file:
+3. Install Jetstream (for multiple authentication): If you haven't already installed Jetstream, run the following command:
+
+   php artisan jetstream:install livewire
+
+4. Install additional dependencies:
+
+   npm install
+   npm run dev
+
+5. Configure the environment file:
 
    cp .env.example .env
    php artisan key:generate
 
-4. Run migrations:
+6. Run migrations:
 
    php artisan migrate --seed
 
-5. Serve the application:
+7. Serve the application:
 
    php artisan serve
 
-6. Access the application at http://localhost:8000 or http://127.0.0.1:8000
+8. Access the application at http://localhost:8000 or http://127.0.0.1:8000
