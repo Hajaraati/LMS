@@ -86,9 +86,9 @@ Library Statistics: View total count of books and members
 
 #### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Hajaraati/LMS.git
-   cd library-system
+   
+   `git clone https://github.com/Hajaraati/LMS.git`
+   `cd library-system`
    
 2. Install dependencies:
 
@@ -123,6 +123,6 @@ Library Statistics: View total count of books and members
 
 For logging in to the application, use the following credentials:
 
-  Admin
+  **Admin**
 - **Email**: admin@gmail.com
 - **Password**: 12345678
